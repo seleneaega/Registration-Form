@@ -1,0 +1,66 @@
+@font-face{
+    font-family: 'evermore';
+    src: url(evermorefont.ttf);
+}
+body{
+    background-color: #4a707a;
+}
+.body{
+    background-color: #94B0b7;
+    text-align: center;
+    font-family: 'evermore';
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.header{
+    color: #4a707a;
+}
+.first-body{
+    background-color: #7697A0;
+}
+.lezgoA{
+    float: left;
+    width: 10em;
+    margin-right: 92px;
+    text-align: left;
+    font-family: 'evermore';
+    font-size: larger;
+    padding-left: 34px;
+    color: #2f5a66;
+}
+.lezgo{
+    float: left;
+    width: 280px;
+    margin-right: 5px;
+    text-align: left;
+    font-family: 'evermore';
+    font-size: larger;
+    padding-left: 34px;
+    color: #2f5a66;
+}
+.second-body{
+    background-color: #7697A0;
+}
+.harang{
+    color: #DDDDDA;
+}
+.btn{
+    text-align: center;
+    font-size: large;
+    font-family: 'evermore';
+    width: 100px;
+    height: 50px;
+    background: #7697A0;
+    border-radius: 10px;
+    color: #2f5a66;
+}
+.bdaybox{
+    width: 170px;
+}
+.agree{
+    color: #2f5a66;
+}

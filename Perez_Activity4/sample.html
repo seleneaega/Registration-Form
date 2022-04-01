@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Registration</title>
+    <link rel="icon" href="pics/registration-form.png">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="handlereg.php" method="POST">
+    <div>
+        <div>
+            <label>First Name:</label>
+            <input type="text" name="daFirstName">
+        </div>
+        <br>
+        <div>
+            <label>Last Name:</label>
+            <input type="text" name="daLastName">
+        </div>
+        <br>
+        <div>
+            <label>Email Address:</label>
+            <input type="text" name="daEmailAddress">
+        </div>
+        <br>
+        <div>
+            <label>Birthdate:</label>
+            <input type="date" name="daBday">
+        </div>
+        <br>
+        <div>
+            <label>Password:</label>
+            <input type="password" name="daPassword">
+        </div>
+        <br>
+        <div>
+            <label>Confirm Password:</label>
+            <input type="password" name="daCpass">
+        </div>
+        </div>
+        <br>
+        <br>
+        <div>
+        <div>
+            <label>What is your mother's maiden name?</label>
+            <input type="text" name="daQ1">
+        </div>
+        <br>
+        <div>
+            <label>What is the name of your first pet?</label>
+            <input type="text" name="daQ2">
+        </div>
+        <br>
+        <div>
+            <label>What was your first pet?</label>
+            <input type="text" name="daQ3">
+        </div>
+        <br>
+        <div>
+            <label>What elementary school did you attend?</label>
+            <input type="text" name="daQ4">
+        </div>
+        <br>
+        <div>
+            <label>Who was your childhood hero?</label>
+            <input type="text" name="daQ5">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div>
+        <input type="checkbox" name="checkbox">
+        <label>I agree that I'm 18 years old and older ^___^</label>
+    </div>
+
+    <div class='main'>
+        <h1>$first_name $last_name's Registration Information</h1>
+        <br>
+        <hr>
+        <div class='woah'>
+            <div class="">
+                <label for=''>First Name:</label>
+                <p class='wandot'>$first_name</p>
+            </div>
+
+            <div class="">
+                <label for=''>Last Name:</label>
+                <p class='wandot'>$last_name</p>
+            </div>
+
+            <div class="">
+                <label for=''>E-Mail Address:</label>
+                <p class='wandot'>$email_address</p>
+            </div>
+
+            <div class="">
+                <label for=''>Birthdate:</label>
+                <p class='wandot'>$birthdate</p>
+            </div>
+
+            <div class="">
+                <label for=''>Password:</label>
+                <p class='wandot'>$password</p>
+            </div>
+
+            <div class="">
+                <label for=''>Confirm Password:</label>
+                <p class='wandot'>$confirm_password</p>
+            </div>
+        </div>
+        <br><hr><br>
+        <h3>Security Questions</h3>
+        <div class="">
+            <div class="">
+                <label for=''>What is your mother's maiden name?</label>
+                <p class='wandot'>$question1</p>
+            </div>
+
+            <div class="">
+                <label for=''>What is the name of your first pet?</label>
+                <p class='wandot'>$question2</p>
+            </div>
+
+            <div class="">
+                <label for=''>What was your first pet?</label>
+                <p class='wandot'>$question3</p>
+            </div>
+
+            <div class="">
+                <label for=''>What elementary school did you attend?</label>
+                <p class='wandot'>$question4</p>
+            </div>
+
+            <div class="">
+                <label for=''>Who was your childhood hero?</label>
+                <p class='wandot'>$question5</p>
+            </div>
+        </div>
+        <br><hr><br>
+        
+        <a href='formreg.php'>
+            <div class='btn'>
+                <button>
+                    back to the forms
+                </button>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
+
+<!--            First Name: $first_name
+                Last Name: $last_name
+                Email Address: $email_address
+                Birthdate: $birthdate
+                Password: $password
+                Confirm Password: $confirm_password
+                <hr>
+                Q1: $question1
+                Q2: $question2
+                Q3: $question3
+                Q4: $question4
+                Q5: $question5 -->
+
